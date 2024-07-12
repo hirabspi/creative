@@ -1,0 +1,77 @@
+
+*{
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body a{
+  text-decoration: none;
+}
+
+div.main_1 .content_1{
+    text-align: center;
+}
+div.main_1 .Course_1{
+    display: flex;
+    margin: 10px 0;
+    
+}
+
+div.main_1 .Course_1 a:hover{
+  color: red;
+  transition: .6s;
+}
+div.main_1 .Course_1 a{
+   position: relative;
+   color: black;
+   
+}
+div.main_1 .Course_1 a::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  background-color: red;
+  left: 0;
+  height: 2px;
+  bottom: -10px;
+  transition: .3s;
+}
+div.main_1 .Course_1 a:hover::after{
+  width: 100%;
+}
+div.main_1 .Course_1 h3{
+    margin-left: 7%;
+    
+}
+div.main_1 .mainpic_1{
+    display:flex;
+}
+  div.mainpic_1 img{
+   height: 130px;
+   width: 240px;
+   margin: 5px;
+   
+  }
+
+  div.mainpic_1{
+    padding:  10px 5px;
+    margin: 10px 5px ;
+    border-radius: 15px 15px 0 0;
+  }
+  .mainpic_1 .course_01{
+    border: 1px solid red;
+    padding: 0;
+    
+  }
+.mainpic_1 .course_02{
+  border: 1px solid red;
+
+}
+.mainpic_1 .course_03{
+  border: 1px solid red;
+  
+}
+.mainpic_1 .course_04{
+  border: 1px solid red;
+}
